@@ -1,0 +1,40 @@
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+img{
+    width: 10%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.short-container{
+    height: 50px;
+    width: 300px;
+    background-color: brown;
+    overflow: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
